@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Lista dos Estabelecimentos</ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="cadastroPage()">
+         <ion-icon name="add"></ion-icon>
+       </button>
+        </ion-buttons>
+    </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+        <ion-card class="bg">
+                <ion-list>
+                        <ion-item *ngFor="let estabelecimento of estabelecimento$ | async" (click)="selecionarNovoestabelecimento(estabelecimento)">                      
+                        <ion-thumbnail item-start>
+                        <img src="../../assets/salmao.jpg">
+                      </ion-thumbnail>
+                      <h1>{{estabelecimento.nome}}</h1>
+                      <h2>{{estabelecimento.tipo}}</h2>
+                      <h3>{{estabelecimento.descricao}}</h3>
+                      <button ion-button clear item-end>Opções</button>
+                    </ion-item>
+                </ion-list>
+            </ion-card>
+
+</ion-content>

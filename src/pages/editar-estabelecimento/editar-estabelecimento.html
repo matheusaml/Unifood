@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Modificar {{novoEstabelecimento.nome}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-item class="cordefundo">
+        <ion-label floating>Nome</ion-label>
+        <ion-input type="text" [(ngModel)]="novoEstabelecimento.nome"></ion-input>
+    </ion-item>
+
+    <ion-item class="cordefundo">
+        <ion-label floating>Tipo</ion-label>
+        <ion-input type="text" [(ngModel)]="novoEstabelecimento.tipo"></ion-input>
+    </ion-item>
+
+    <ion-item class="cordefundo">
+        <ion-label floating>Descricao</ion-label>
+        <ion-input type="text" [(ngModel)]="novoEstabelecimento.descricao"></ion-input>
+    </ion-item>
+
+    <button class="botaocadastrar" ion-button block (click)="editarNovoEstabelecimento(novoEstabelecimento)">Confirmar</button>
+</ion-content>
