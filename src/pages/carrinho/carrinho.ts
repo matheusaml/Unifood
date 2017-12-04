@@ -7,14 +7,6 @@ import { ImagePicker } from 'ionic-native';
 import { AngularFireDatabase } from 'angularfire2/database-deprecated';
 import { Subscription } from 'rxjs/Subscription';
 
-
-/**
- * Generated class for the CarrinhoPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-carrinho',

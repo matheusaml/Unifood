@@ -1,7 +1,6 @@
 import { EditarEstabelecimentoPage } from './../pages/editar-estabelecimento/editar-estabelecimento';
 import { ListaEstabelecimentoPage } from './../pages/lista-estabelecimento/lista-estabelecimento';
 import { CadastroEstabelecimentoPage } from './../pages/cadastro-estabelecimento/cadastro-estabelecimento';
-import { RelatoriosPage } from './../pages/relatorios/relatorios';
 import { CardapioPessoaPage } from './../pages/cardapiopessoa/cardapiopessoa';
 import { ListaItemPage } from './../pages/lista-item/lista-item';
 import { EditarItemPage } from './../pages/editar-item/editar-item';
@@ -58,7 +57,6 @@ const cloudSettings: CloudSettings = {
     EditarItemPage,
     ListaItemPage,
     CardapioPessoaPage,
-    RelatoriosPage,
     CarrodecomprasPage,
     CadastroEstabelecimentoPage,
     ListaEstabelecimentoPage,
@@ -84,7 +82,6 @@ const cloudSettings: CloudSettings = {
     EditarItemPage,
     ListaItemPage,
     CardapioPessoaPage,
-    RelatoriosPage,
     CarrodecomprasPage,
     CadastroEstabelecimentoPage,
     ListaEstabelecimentoPage,

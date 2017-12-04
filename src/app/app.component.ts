@@ -9,7 +9,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { CadastroItemPage } from '../pages/cadastro-item/cadastro-item';
 import { ListaItemPage } from '../pages/lista-item/lista-item';
 import { CardapioPessoaPage } from '../pages/cardapiopessoa/cardapiopessoa';
-import { RelatoriosPage } from '../pages/relatorios/relatorios';
 import { CadastroEstabelecimentoPage } from '../pages/cadastro-estabelecimento/cadastro-estabelecimento';
 
 @Component({
@@ -29,11 +28,10 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'Cadastrar Item', component: CadastroItemPage},
-      { title: 'Cardápio Administrativo', component: ListaItemPage},
-      { title: 'Cardapio Pessoa', component: CardapioPessoaPage},
-      { title: 'Relatorios', component: RelatoriosPage},
-      { title: 'Carro de Compras', component: CarrodecomprasPage},
+      { title: 'Cadastrar Pedido', component: CadastroItemPage},
+      { title: 'Cadastrar Cardápio', component: ListaItemPage},
+      { title: 'Cardápio', component: CardapioPessoaPage},
+      { title: 'Carrinho de Compras', component: CarrodecomprasPage},
       { title: 'Cadastrar Estabelecimento', component: CadastroEstabelecimentoPage},
       { title: 'Listar Estabelecimento', component: ListaEstabelecimentoPage},
       

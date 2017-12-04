@@ -6,12 +6,6 @@ import { FirebaseApp } from 'angularfire2';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { FirebaseListObservable } from 'angularfire2/database-deprecated';
 
-/*
-  Generated class for the CardapioServProvider provider.
-
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
 @Injectable()
 export class CardapioServProvider {
 
